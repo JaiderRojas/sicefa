@@ -12,8 +12,6 @@ use Validator, Str;
 
 class SolicitarController extends Controller
 {
-
-
     public function index()
     {
         $elements=Element::all();
